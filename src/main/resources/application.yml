@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: shops
+  datasource:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://localhost:5432/postgres
+      username: vlad
+      password: vlad
+
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        hbm2ddl:
+          auto: update
+
+server:
+  port: 9193
+
+
